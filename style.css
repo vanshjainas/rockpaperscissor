@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-repeat:repeat-x;
+}
+h1{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.712);
+    font-family: anton;
+    font-size: 50px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    height: 200px;
+}
+img:hover{
+    scale:1.4;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+}
+/* p{
+    color: brown;
+} */
+.score{
+    display: flex;
+    justify-content: center;
+    gap:240px;
+    font-size: 80px;
+    color: forestgreen;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    gap:160px;
+    color: rgb(15, 15, 189);
+    font-size: 25px;
+}
+.result{
+    height: 20px;
+    width:400px;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(214, 155, 77);
+    border-radius: 15px;
+}
+.won{
+    height: 20px;
+    width:400px;
+    display:flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: chartreuse;
+}
+.lost{
+    height: 20px;
+    width:400px;
+    display:flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgb(218, 12, 12);
+}
+#cent{
+    display: flex;
+    justify-content: center;
+}
